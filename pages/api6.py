@@ -52,4 +52,3 @@ cols[0].json(results)
 
 s = json.dumps(results,indent=4,ensure_ascii=False)
 cols[1].write(s)
-
