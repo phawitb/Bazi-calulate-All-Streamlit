@@ -17,7 +17,7 @@ def getApi(url,params):
 
 st.title('API5 : Star')
 
-birth_date = st.date_input("Birth date", datetime(1912, 1, 1).date(), min_value=datetime(1912, 1, 1).date())
+birth_date = st.date_input("Birth date", datetime.today(), min_value=datetime(1900, 1, 1).date())
 target_date = st.date_input("Target date", datetime.today(), min_value=datetime(1900, 1, 1).date())
 
 # cols = st.columns(5)
