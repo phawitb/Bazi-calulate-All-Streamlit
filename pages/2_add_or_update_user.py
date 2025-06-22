@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Add/Update User", layout="wide")
 st.title("✅ เพิ่มหรืออัปเดตข้อมูลผู้ใช้")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/add_or_update"
+default_url = "https://api-dev.spmu.me/user/add_or_update"
 default_method = "POST"
 default_payload = '''{
   "line_id": "U0001",
