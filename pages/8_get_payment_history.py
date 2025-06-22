@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Purchase History", layout="wide")
 st.title("✅ ตรวจสอบประวัติการซื้อแพ็กเกจ")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/history/U0019"
+default_url = "https://api-dev.spmu.me/user/history/U0019"
 default_method = "GET"
 default_payload = '{}'
 
