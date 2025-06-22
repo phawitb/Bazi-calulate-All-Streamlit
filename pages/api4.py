@@ -18,7 +18,7 @@ st.title('API4 : Next Week Energy')
 st.write('วิเคราะห์พลังธาตุของแต่ละวันใน "สัปดาห์หน้า" (พร้อมชื่อวัน เสาวัน เสาปี เสาเดือน)')
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/api4_next_week_energy'
+    url = 'https://api-dev.spmu.me/api/api4_next_week_energy'
     
 params = {}
 data = getApi(url,params)
