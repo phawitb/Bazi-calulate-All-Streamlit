@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Buy Package", layout="wide")
 st.title("✅ ซื้อแพ็กเกจ (update วันและคำนวณดวงรายวัน)")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/buy_package"
+default_url = "https://api-dev.spmu.me/user/buy_package"
 default_method = "POST"
 default_payload = '''{
   "line_id": "U0019",
