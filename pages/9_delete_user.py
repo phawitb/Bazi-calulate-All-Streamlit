@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Delete User", layout="wide")
 st.title("✅ ลบผู้ใช้ (Delete User)")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/delete/U0019"
+default_url = "https://api-dev.spmu.me/user/delete/U0019"
 default_method = "DELETE"
 default_payload = '{}'  # ปกติไม่ต้องส่ง payload แต่คงไว้ให้ฟอร์มเดิม
 
