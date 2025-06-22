@@ -36,7 +36,7 @@ target_date = st.date_input("Target date", datetime.today(), min_value=datetime(
 
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/api5_star_predict'
+    url = 'https://api-dev.spmu.me/api/api5_star_predict'
     params = {
         "birth_date" : birth_date,
         "target_date" : target_date
