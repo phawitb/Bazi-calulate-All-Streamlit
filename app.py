@@ -36,7 +36,7 @@ if checked:
 
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/calculate_bazi'
+    url = 'https://api-dev.spmu.me/api/calculate_bazi'
     params = {
         "date_input" : date_input,
         "time_input" : time_input,
