@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Basic User Info", layout="wide")
 st.title("✅ ข้อมูลผู้ใช้เบื้องต้น (ไม่รวมปฏิทิน)")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/basic_info/U0001"
+default_url = "https://api-dev.spmu.me/user/basic_info/U0001"
 default_method = "GET"
 default_payload = '{}'
 
