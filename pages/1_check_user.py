@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester", layout="wide")
 st.title("ตรวจสอบว่ามีผู้ใช้หรือไม่")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/check_user/U0001"
+default_url = "https://api-dev.spmu.me/user/check_user/U0001"
 default_method = "GET"
 default_payload = '{}'
 
