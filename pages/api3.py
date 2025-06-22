@@ -18,7 +18,7 @@ st.title('API3 : Five Year Forecast	')
 st.write('ทำนายพลังธาตุรายปีล่วงหน้า 5 ปี (แสดงเฉพาะเสาปี)')
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/api3_five_year_forecast'
+    url = 'https://api-dev.spmu.me/api/api3_five_year_forecast'
     
 params = {}
 data = getApi(url,params)
