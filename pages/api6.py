@@ -37,7 +37,7 @@ input_date = st.date_input("Date", datetime(2025, 4, 1), min_value=datetime(1900
 
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/api6_get_detail_date'
+    url = 'https://api-dev.spmu.me/api/api6_get_detail_date'
     params = {
         "input_date" : input_date,
     }
