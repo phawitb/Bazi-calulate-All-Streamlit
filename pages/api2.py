@@ -18,7 +18,7 @@ st.title('API2 : Current Energy')
 st.write('แสดงพลังธาตุของปีปัจจุบันและพลังของแต่ละเดือน (เสาปีและเสาเดือน)')
 
 with st.echo():
-    url = 'https://api.dev.spmu.me/api/api2_current_energy'
+    url = 'https://api-dev.spmu.me/api/api2_current_energy'
 params = {}
 data = getApi(url,params)
 
