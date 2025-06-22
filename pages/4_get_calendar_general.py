@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Calendar General", layout="wide")
 st.title("✅ ข้อมูลปฏิทินทั่วไป (รายเดือน + วันหยุด)")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/api/calendar_general"
+default_url = "https://api-dev.spmu.me/api/calendar_general"
 default_method = "GET"
 default_payload = '''{
   "year": 2025,
