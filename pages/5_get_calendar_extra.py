@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - Calendar Info", layout="wide")
 st.title("✅ ข้อมูล (เฉพาะปฏิทิน) ของผู้ใช้")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/calendar_extra/U0001"
+default_url = "https://api-dev.spmu.me/user/calendar_extra/U0001"
 default_method = "GET"
 default_payload = '''{
   "month": 7,
