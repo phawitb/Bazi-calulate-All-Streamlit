@@ -6,7 +6,7 @@ st.set_page_config(page_title="API Tester - All User Detail", layout="wide")
 st.title("✅ ข้อมูลผู้ใช้ทั้งหมด (รวมปฏิทินและ Bazi)")
 
 # --- Default values ---
-default_url = "https://api.dev.spmu.me/user/all_detail/U0001"
+default_url = "https://api-dev.spmu.me/user/all_detail/U0001"
 default_method = "GET"
 default_payload = '{}'
 
